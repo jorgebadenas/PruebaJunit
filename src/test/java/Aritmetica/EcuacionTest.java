@@ -14,6 +14,7 @@ public class EcuacionTest {
         assertEquals(ecuacion.resolver(), Double.POSITIVE_INFINITY);
     }
 
+    // Test de ecuaciones con a <> 0
     @Test
     public void distintosDeCeroTest() {
         Ecuacion ecuacion = new Ecuacion(1, 1); // x + 1 = 0
